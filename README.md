@@ -22,10 +22,9 @@
   
   ### Initial Display of Homepage on loading 
   ![image](https://user-images.githubusercontent.com/79474830/121257109-ec3a4200-c872-11eb-86cf-957780f8af99.png)
-  ![image](https://user-images.githubusercontent.com/79474830/121255842-84372c00-c871-11eb-9b0e-a9a60d57824e.png)
-  ![image](https://user-images.githubusercontent.com/79474830/121257250-168bff80-c873-11eb-9256-08375bb4cc6e.png)
   ![image](https://user-images.githubusercontent.com/79474830/121257650-8ef2c080-c873-11eb-971d-2fddec64a65a.png)
   ![image](https://user-images.githubusercontent.com/79474830/121259397-ad59bb80-c875-11eb-9efc-6384dcb7dbb7.png)
+  ![image](https://user-images.githubusercontent.com/79474830/121255842-84372c00-c871-11eb-9b0e-a9a60d57824e.png)
 
   
   ### Display of Project Page 

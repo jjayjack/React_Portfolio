@@ -1,0 +1,219 @@
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(204, 204, 204);
+  --light: rgb(212, 226, 83);
+  --dark: rgb(0, 0, 0);
+  --gray: rgb(49, 52, 61);
+  --opposite: rgb(108, 201, 202);
+  --background: rgb(204,204,204);
+}
+
+.navDir{
+  background-color: var(--dark);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  color: var(--light);
+  align-items: flex-end;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.name{
+  font-weight: bolder;
+  align-self: flex-end;
+  color: var(--opposite);
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: var(--light)
+}
+
+a:hover{
+  text-shadow: 2px 2px 5px var(--light);
+  color: var(--opposite)!important; 
+
+}
+
+.chevron {
+  background-image: url('./images/Chevron.jpg');
+  height: 175px; 
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  z-index: initial;
+  border-bottom: 3px solid black;
+}
+
+.subtitle{
+  background-color: var(--light);
+  width: 30%;
+  height: auto;
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 37px;
+  align-self: flex-end;
+  z-index: 9000;
+  outline: 3px solid var(--dark);
+  padding: 10px;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+
+}
+
+.container{
+  margin-top: 10px;
+}
+
+.handlebar{
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 10px;
+}
+
+.about-me, .work, .footer {
+  margin-top: 10px;
+  justify-content: flex-start;
+}
+
+.header{
+  background-color: var(--light);
+  width: 30%;
+  height: auto; 
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 37px;
+  outline: 3px solid var(--dark);
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.content{
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  align-items:stretch;
+
+}
+
+.text-content{
+  width: 66%;
+  border: 3px dashed var(--opposite);
+  color: var(--dark);
+  border-radius: 3px;
+  box-shadow: 10px solid var(--opposite);
+  justify-content: center;
+  padding: 10px;
+  margin: 25px;
+  font-size:large;
+  line-height: 2.0;
+  align-items: center;
+  
+}
+
+#portrait{
+  width: 400px;
+  height: 506px;
+  border: 3px solid var(--gray);
+  box-shadow: 5px 10px var(--light);
+  background-image: url(./images/portrait.jpg);
+}
+
+figure:hover {
+  border-style: groove var(--dark);
+  box-shadow: 0 0 6px var(--dark);
+}
+
+.work{
+  padding: 20px;
+  border: 3px solid var(--gray);
+  background-color: var(--opposite);
+  box-shadow: 5px 10px var(--dark);
+  color: var(--dark)
+}
+
+.listItem, .listItem > a:link {
+  background-color: var(--background);
+  color: var(--dark) !important
+}
+
+.project-img{
+  border-bottom: 3px solid var(--gray);
+}
+
+
+
+.project-small{
+  width:500px;
+  border: 3px dashed var(--opposite);
+  margin: 10px;
+}
+
+.image-header, .image-header>a:link {
+  background-color:var(--light);   
+  color:var(--dark) !important;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.footerChev {
+  border-top: 3px solid black;
+  justify-content: space-evenly;
+}
+
+#contact {
+  position: relative;
+  top: -12px;
+  justify-content: flex-end;
+
+}
+.footer{
+  display: flex;
+  align-items: flex-end;
+  width: 100%
+
+}
+.footer > a{
+  font-weight: bold;
+  color: var(--light);
+  height: fit-content;
+  margin-top: 27px;
+  background-color: var(--dark);
+  padding: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+      width: 100%; };
+  .content{
+      display: flex;
+      flex-flow: column wrap;
+  }
+
+}
+@media only screen and (max-width: 917px){
+  div{
+      flex-direction: column;
+  }
+  #flower, #sunset, #water, #flowers{
+      width:100%;
+      height: 100px;
+  }
+}
+@media only screen and (max-width: 600px){
+body{
+  width: 100%;
+  flex-direction: column;
+}
+h3 {
+  width: 40%;
+  height: 50%;
+}
+p{
+  flex-direction:column;
+}
+
+}

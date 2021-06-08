@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.fc2a0761.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.809c3466.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.809c3466.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.a8d45f8c.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.a8d45f8c.js.map",
+    "static/js/2.0b2b1ea0.chunk.js": "/React_Portfolio/static/js/2.0b2b1ea0.chunk.js",
+    "static/js/2.0b2b1ea0.chunk.js.map": "/React_Portfolio/static/js/2.0b2b1ea0.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "static/css/main.fc2a0761.chunk.css.map": "/React_Portfolio/static/css/main.fc2a0761.chunk.css.map",
+    "static/js/2.0b2b1ea0.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.0b2b1ea0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/React_Portfolio/static/media/portrait.4e72a2ca.jpg",
+    "static/media/employeeDirectory.158e0e74.PNG": "/React_Portfolio/static/media/employeeDirectory.158e0e74.PNG",
+    "static/media/fitnessTracker.234f5672.PNG": "/React_Portfolio/static/media/fitnessTracker.234f5672.PNG",
+    "static/media/movieGo.63b5023e.png": "/React_Portfolio/static/media/movieGo.63b5023e.png",
+    "static/media/notetaker.638fad49.PNG": "/React_Portfolio/static/media/notetaker.638fad49.PNG",
+    "static/media/spotifyCommunity.bb8fea77.PNG": "/React_Portfolio/static/media/spotifyCommunity.bb8fea77.PNG",
+    "static/media/weatherApplication.1b1b378b.PNG": "/React_Portfolio/static/media/weatherApplication.1b1b378b.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8d45f8c.js",
+    "static/js/2.0b2b1ea0.chunk.js",
+    "static/css/main.fc2a0761.chunk.css",
+    "static/js/main.809c3466.chunk.js"
+  ]
+}

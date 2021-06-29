@@ -12,7 +12,7 @@ const Homepage = () => {
                 <Route exact path = '/project' component={Project} />
                 <Route exact path = '/contact' component={Contact} />
                 <Route path ='/resume' component={() => {
-                    window.location.href ="https://drive.google.com/file/d/1FX5eONirDwOGhIR8yBu0VmiN6EJIAMlX/view?usp=sharing";
+                    window.open("https://drive.google.com/file/d/1Ry6U-iYwmH2KNCoC8_nTcfsQgElDAzqP/view?usp=sharing");
                     return null}}/>
             </Switch>
         </main>

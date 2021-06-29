@@ -5,6 +5,7 @@ import notetaker from '../images/notetaker.PNG';
 import weather from '../images/weatherApplication.PNG';
 import fitness from '../images/fitnessTracker.PNG';
 import employee from '../images/employeeDirectory.PNG';
+import eatsaroundme from '../images/eatsAroundMe.png'
 
 const Project = () => {
     return (
@@ -33,6 +34,16 @@ const Project = () => {
                         <a className="card-link image-header" href="https://github.com/jjayjack/spotify-community">Github</a>
                     </div>
                 </div>
+                <div className="card project-small" id="eatsAroundMe" >
+                <img src={eatsaroundme} className="card-img-top project-img" alt="EatsAroundMe"/>
+                    <div className="card-body">
+                        <h5 className="card-title">Eats Around Me</h5>
+                        <h6 className="card-subtitle mb-2 text-muted">Coding Bootcamp: Project 3</h6>
+                        <p className="card-text">Third project with an amazing group connecting Backend API (FourSquare) with Front-end component (React/React-Boostrap)</p>
+                        <a className="image-header card-link"  href="https://foodiesunite.herokuapp.com/">Application</a>
+                        <a className="image-header card-link" href="https://github.com/jjayjack/FoodiesUnite">Github</a>
+                    </div>
+                </div>  
                 <div className="card project-small" id="note-taker" >
                 <img src={notetaker} className="card-img-top project-img" alt="Notetaker"/>
                     <div className="card-body">
@@ -73,6 +84,7 @@ const Project = () => {
                         <a className="image-header card-link" href="https://github.com/jjayjack/Employee_Directory">Github</a>
                     </div>
                 </div>   
+
             </div>  
         </div>
     )
